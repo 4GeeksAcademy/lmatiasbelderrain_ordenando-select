@@ -17,16 +17,26 @@
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <h1 class="mt-5">ordenando cartas</h1>
+      <div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Ingrese cantidad de cartas a mostrar</span>
+          <input type="number" class="form-control" placeholder="..." aria-label="Username" aria-describedby="basic-addon1" id="cantidad">
+        </div>
       </div>
+      <button type="button" class="btn btn-success" id="mostrar">Mostrar cartas aleatorias</button>
+      <h3>cartas aleatorias</h3>
+      <!-- <ul class="list-group list-group-flush"> -->
+        <!-- <li class="list-group-item text-start" id="contenedor"></li> -->
+        <!-- <li class="list-group-item" id="numero"></li>
+        <li class="list-group-item text-end" id="icono"></li> -->
+      <!-- </ul> -->
+      <section id="contenedor"></section>
+      <button type="button" class="btn btn-success" id="mostrarCartasOrdenadas">Ordenar</button>
+      <h3>Ordenadas</h3>
+      <section id="ordenadas" class="cartasOrdenadas"></section>
+      
+     
     </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->

@@ -1,5 +1,54 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: green;
+    
+}
+
+.card.♦, .card.♥ {
+    color: red;
+}
+
+.card.♠, .card.♣ {
+    color: black;
+}
+
+.card {
+    border: 1px solid black;
+    width: 50px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3px;
+    list-style-type: none;
+    margin: 5px;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    margin: 6px;
+}
+
+#ordenadas {
+  display: flex;
+  flex-direction: column; /* Organiza las filas en columnas */
+  padding: 3px;
+  margin: 6px;
+}
+
+.fila-cartas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; /* Asegura que cada fila ocupe todo el ancho */
+  margin-bottom: 10px; /* Añade espacio entre filas */
+}
+
+#ordenadas .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; /* Cambiado a width: auto; */
+    margin-right: 10px; /* Añade margen derecho para separar filas */
 }
